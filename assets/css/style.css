@@ -1,0 +1,424 @@
+/*iphone 5dst */
+
+html{
+    overflow-x: hidden;
+}
+strong{
+    font-weight: 600;
+}
+.headTitle{
+    font-weight: 400;
+    color: #2d334f!important;
+}
+
+.sosmedcontain{
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-block;
+    width: 400px!important;
+   
+}
+
+.querycontent{
+    margin-top: 3px!important;
+  
+}
+.sosmed{
+    display: inline-block!important;
+    max-width: 40%!important;
+
+}
+
+.dribbble img{
+width: 100px!important;
+}
+
+.insta img{
+    margin-right: 20px!important;
+    width: 120px;
+
+}
+
+.linkedin img{
+    width: 110px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .headContent{
+          width: 350px;
+          margin-left: -88px!important;
+      }
+      .headTitle{
+          width: 304px!important;
+          font-size: 30px!important;
+          
+          
+      }
+      .headParagraph{
+        width: 280px!important;
+        
+        font-size: 14px!important;
+      }
+      .sosmed{
+        display: inline-block!important;
+        max-width: 32%!important;
+    
+    }
+    .linkedin img{
+        width: 110px;
+        margin-right: 100px;
+        margin-left: -20px;
+    }
+
+    .insta img{
+        margin-left: -30px;
+    }
+    .querymobile{
+        display: flex!important;
+    }
+    .query{
+        display: none;
+    }
+    .querycontent{
+        margin-left: -30px!important;
+    }
+    .queryTitle{
+        width: 400px;
+    }
+    .footer{
+        height: 300px!important;
+    }
+    .copyright{
+        margin-top: 40px;
+    }
+    .headimage{
+        margin-left: -90px!important;
+    }
+    .mobilez{
+        display: flex!important;
+    }
+    .desktopz{
+        display: none!important;
+    }
+}
+/*1440*/
+@media only screen and (min-width: 1440px) and (max-width: 1600px) 
+{
+      .desktopz .float-right{
+          margin-left: -300px!important;}
+          .desktopz .offset-xl-2{
+            margin-left: 450px!important;}
+      
+  }
+/*1200*/
+@media only screen and (min-width: 1200px) 
+and (max-width: 1439px) 
+{
+      .desktopz .float-right{
+          margin-left: -300px!important;}
+          .desktopz .offset-xl-2{
+            margin-left: 450px!important;}
+      
+  }
+
+/*iphone 6,7,8dst */
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .headContent{
+        width: 350px;
+        margin-left: -88px!important;
+    }
+    .headTitle{
+        width: 354px!important;
+        font-size: 40px!important;
+        
+        
+    }
+    .headimage{
+        margin-left: -90px!important;
+    }
+    .headParagraph{
+      width: 320px!important;
+      
+      font-size: 14px!important;
+    }
+    .sosmed{
+        display: inline-block!important;
+        max-width: 29%!important;
+    
+    }
+
+    .sosmedcontain{
+        width: 400px!important;
+    }
+    .linkedin img{
+        width: 110px;
+        margin-right: 50px;
+        margin-left: 40px;
+    }
+
+    .insta img{
+        margin-left: 0px;
+    }
+    .querymobile{
+        display: flex!important;
+    }
+    .query{
+        display: none;
+    }
+    .querycontent{
+        margin-left: -55px!important;
+    }
+    .queryTitle{
+        width: 400px;
+    }
+    .footer{
+        height: 300px!important;
+    }
+    .copyright{
+        margin-top: 40px;
+    }
+    .mobilez{
+        display: flex!important;
+    }
+    .desktopz{
+        display: none!important;
+    }
+}
+
+
+/*iphone 6+,7+,8+dst */
+@media only screen 
+  and (device-width: 414px) 
+  and (device-height: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .querymobile{
+        display: flex!important;
+    }
+    .headimage{
+        margin-left: -90px!important;
+    }
+    .query{
+        display: none;
+    }
+    .querycontent{
+        margin-left: -30px!important;
+    }
+    .queryTitle{
+        width: 400px;
+    }
+    .footer{
+        height: 300px!important;
+    }
+    .copyright{
+        margin-top: 40px;
+    }
+    .mobilez{
+        display: flex!important;
+    }
+    .desktopz{
+        display: none!important;
+    }
+}
+
+@media only screen 
+  and (device-width: 736px) 
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .sosmed{
+        display: inline-block!important;
+        max-width: 29%!important;
+    
+    }
+
+    .sosmedcontain{
+        width: 800px!important;
+    }
+    .querymobile{
+        display: flex!important;
+    }
+    .headimage{
+        margin-left: -90px!important;
+    }
+    .query{
+        display: none;
+    }
+    .querycontent{
+        margin-left: -30px!important;
+    }
+    .queryTitle{
+        width: 400px;
+    }
+    .footer{
+        height: 300px!important;
+    }
+    .copyright{
+        margin-top: 40px;
+    }
+    .mobilez{
+        display: flex!important;
+    }
+    .desktopz{
+        display: none!important;
+    }
+}
+
+/*iphoneX*/
+@media only screen 
+  and (device-width: 375px) 
+  and (device-height: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .querymobile{
+        display: flex!important;
+    }
+    .query{
+        display: none;
+    }
+    .querycontent{
+        margin-left: -55px!important;
+    }
+    .queryTitle{
+        width: 400px;
+    }
+    .footer{
+        height: 300px!important;
+    }
+    .copyright{
+        margin-top: 40px;
+    }
+    .headimage{
+        margin-left: -90px!important;
+    }
+    .mobilez{
+        display: flex!important;
+    }
+    .desktopz{
+        display: none!important;
+    }
+}
+
+/*iphone 11*/
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+        .querycontent{
+            margin-left: -30px!important;
+        }
+    }
+
+/*galaxy s5dst*/
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+    .sosmedcontain{
+        width: 400px!important;
+    }
+    .linkedin img{
+        width: 110px;
+        margin-right: 80px;
+        margin-left: 0px;
+    }
+    .querymobile{
+        display: flex!important;
+    }
+    .query{
+        display: none;
+    }
+    .querymobile{
+        display: flex!important;
+    }
+    .query{
+        display: none;
+    }
+    .querycontent{
+        margin-left: -63px!important;
+    }
+    .queryTitle{
+        width: 400px;
+    }
+    .footer{
+        height: 300px!important;
+    }
+    .copyright{
+        margin-top: 40px;
+    }
+    .mobilez{
+        display: flex!important;
+    }
+    .desktopz{
+        display: none!important;
+    }
+}
+
+/*galaxy s6*/
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+    .querymobile{
+        display: flex!important;
+    }
+    .query{
+        display: none;
+    }
+    .querycontent{
+        margin-left: -50px!important;
+    }
+    .queryTitle{
+        width: 400px;
+    }
+    .footer{
+        height: 300px!important;
+    }
+    .copyright{
+        margin-top: 40px;
+    }
+    .mobilez{
+        display: flex!important;
+    }
+    .desktopz{
+        display: none!important;
+    }
+   
+
+}
+
+
+/*ipad*/
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .sosmedcontain{
+          overflow: hidden!important;
+          width: 100%!important;
+          display: flex;
+      }
+  
+      .headimage{
+          width: 900px!important;
+          margin-left: -53px!important;
+      }
+      .copyright{
+          margin-top: -20px;
+      }
+      .mobilez{
+        display: flex!important;
+    }
+    .desktopz{
+        display: none!important;
+    }
+    }
+
+  
